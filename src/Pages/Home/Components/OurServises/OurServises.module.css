@@ -1,0 +1,67 @@
+.servise_section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.title_block {
+    width: 60%;
+}
+
+.servise_title {
+    color: #35417F;
+    font-size: 18px;
+}
+
+.servise_main_title {
+    color: #03115F;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.servise_title_description {
+    color: #535670;
+    line-height: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.card img {
+    margin: 20px 10px;
+    width: 10%;
+}
+
+.card h3 {
+    color: #1E74EC;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #535670;
+    font-size: 16px;
+}
+
+.all_servise_btn {
+    color: #A960AB;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+
+.all_servise_btn img {
+    color: #A960AB;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0 0 20px;
+}
