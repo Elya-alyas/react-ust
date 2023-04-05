@@ -16,3 +16,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.logos img {
+    flex: 0 1 15%;
+}

@@ -31,7 +31,7 @@
     margin: 0 auto;
     background: #EEEFF1;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 10%;
     display: flex;
     justify-content: space-between;
@@ -55,6 +55,7 @@
 .ideas_description {
     font-size: 14px;
     line-height: 18px;
+    color: #DDDDE2;
 
 }
 
@@ -77,6 +78,8 @@
 
 .contact_info p {
     line-height: 16px;
+    color: #DDDDE2;
+    margin-right: 14px;
 }
 
 .socialmedia_logo {
@@ -87,13 +90,13 @@
     margin: 100px 0;
     margin-right: 100px;
     margin-left: 100px;
-    width: 45%;
+    width: 60%;
 }
 
 .contact_us_title {
     color: #03115F;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .contact_us_description {
@@ -139,10 +142,17 @@
     font-size: 10px;
 }
 
+.btn_und_privacyPolicy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact_us_submitBtn {
     background: #1E74EC;
     color: #EEEFF1;
     padding: 10px 14px;
+    margin-right: 10px;
     width: 40%;
 }
 

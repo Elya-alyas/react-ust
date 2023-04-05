@@ -2,7 +2,7 @@
 
 .main_section {
     background: url('../../../../assets/HomePage/bg.png') center/ cover no-repeat;
-    height: 100vh;
+    min-height: 110vh;
     font-family: 'Gotham', sans-serif;
 
 }
@@ -20,35 +20,38 @@
     min-height: 100vh;
 }
 
-.title {
+.main_title {
     margin-top: 150px;
     font-size: 50px;
     font-weight: 400;
     color: #EEEFF1;
     width: 60%;
     font-weight: 600;
+    line-height: normal;
 
 }
 
-.title p {
+.main_title p {
     color: #1E74EC;
 }
 
-.title_description {
+.main_title_description {
     color: #DDDDE2;
-    font-size: 14px;
-    width: 30%;
-    margin: 20px 0;
+    font-size: 20px;
+    width: 40%;
+    margin: 120px 0 0 0;
 }
 
 .orderBtn {
     background: #1E74EC;
     color: #DDDDE2;
+    font-size: 16px;
+    font-weight: 500;
     text-align: center;
     padding: 10px 15px;
-    width: 130px;
+    width: 150px;
     height: 5%;
-    margin-top: 20px;
+    margin-top: 30px;
 
     transition: 0.8s;
 }
@@ -65,14 +68,17 @@
     color: #EEEFF1;
     align-items: center;
     text-align: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .adjustments h3 {
+    text-align: center;
     font-size: 44px;
     font-weight: 700;
 }
 
-.adjustments p {
-    font-size: 16 px;
+.adjustments_description {
+    font-size: 16px;
+    color: #EEEFF1;
+    margin-top: 16px;
 }

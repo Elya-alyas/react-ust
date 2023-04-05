@@ -25,6 +25,14 @@
 
 }
 
+.faq_question {
+    color: #535670;
+    width: 100%;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 #first_question {
     border: none;
 }
@@ -43,6 +51,7 @@
 .question_block {
     display: flex;
     justify-content: space-between;
+    height: 20px;
 }
 
 .faq_answer {
@@ -60,4 +69,5 @@
 .open_answer {
     color: #79077B;
     font-size: 24px;
+    margin: 0;
 }

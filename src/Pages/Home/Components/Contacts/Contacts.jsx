@@ -58,8 +58,13 @@ const Contacts = () => {
                         <input type="text" name="" id={contacts_style.inpName} placeholder='Электронная почта*' />
                         <textarea id={contacts_style.inpText} placeholder='Сообщение' />
                         <p className={contacts_style.req_text}><span>*</span> обязательные поля для заполнения</p>
-                        <button className={contacts_style.contact_us_submitBtn}>Отправить</button>
-                        <span className={contacts_style.contact_us_privacy_policy}>Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфидециальности</a></span>
+
+                        <div className={contacts_style.btn_und_privacyPolicy}>
+
+                            <button className={contacts_style.contact_us_submitBtn}>Отправить</button>
+                            <span className={contacts_style.contact_us_privacy_policy}>Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфидециальности</a></span>
+                        </div>
+
                     </form>
                 </div>
             </div>
