@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/gotham?styles=17581,17583,17585,17587,17579,17588,17589,17591,17592,17595');
+
+.footer {
+    background-color: #011481;
+    width: 100%;
+    height: 310px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.up_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_third {
+    display: flex;
+}
+
+h3 {
+    height: 24px;
+    width: 215px;
+    margin-top: 64px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F0F0F1;
+    text-align: left;
+    font-style: Bold;
+}
+
+
+.info {
+    margin-top: 16px;
+}
+
+.info li {
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: #F0F0F1;
+}
+
+.out {
+    margin-top: 16px;
+}
+
+.inform {
+    margin-top: 64px;
+    gap: 15px;
+
+}
+
+.inform li {
+    text-decoration-style: inherit;
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 13px;
+    font-style: inherit;
+    line-height: 100%;
+    letter-spacing: 10%;
+    color: #E0E1E3;
+    margin-top: 10px;
+}
+
+.bottom_block {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.bottom_block h4 {
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: #F0F0F1;
+}
+
+.bottom_confidens {
+    display: flex;
+    margin-left: 200px;
+}
+
+.bottom_confidens h5 {
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F0F0F1;
+    margin-left: 25px;
+}
+
+.line_image {
+    height: 14px;
+    width: 2px;
+    margin-left: 25px;
+
+}
