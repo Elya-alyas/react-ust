@@ -1,0 +1,378 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-4');
+@import url('https://fonts.cdnfonts.com/css/gotham-4');
+
+.main_block {
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.headline {
+    position: absolute;
+    width: 207px;
+    height: 32px;
+    left: 153px;
+    top: 210px;
+    color: #CDCFDF;
+    font-size: 20px;
+    font-family: 'Gotham', sans-serif;
+}
+
+.title {
+    position: absolute;
+    width: 430px;
+    height: 68px;
+    left: 150px;
+    top: 252px;
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+}
+
+.section {
+    position: absolute;
+    width: 577px;
+    height: 168px;
+    color: #DDDDE2;
+    top: 13%;
+    left: 150px;
+    line-height: 1.8;
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+
+}
+
+.three_block {
+    width: 85%;
+}
+
+.text {
+    width: 400px;
+    height: 192px;
+    color: #03115F;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.description {
+    width: 570px;
+    height: 168px;
+    font-family: 'Gotham' sans-serif;
+    font-weight: 325;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.person_one {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 59%;
+    margin-top: -28%;
+}
+
+.person_two {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 83%;
+    margin-top: -330px;
+}
+
+.name_one {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 63%;
+}
+
+.name_two {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 62%;
+}
+
+.name_three {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 89%;
+}
+
+.name_four {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 93%;
+}
+
+.person_three {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+.name_five {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 16%;
+}
+
+.name_six {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 15%;
+}
+
+.person_four {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 35%;
+    margin-top: -330px;
+}
+
+.name_seven {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 40%;
+}
+
+.name_eight {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 37%;
+}
+
+.person_nine {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 59%;
+    margin-top: -330px;
+}
+
+.name_ten {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 64%;
+}
+
+.name_eleven {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 61%;
+}
+
+.person_twelve {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 83%;
+    margin-top: -330px;
+}
+
+.name_thirteen {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 88%;
+}
+
+.name_fourteen {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 83%;
+}
+
+.person_fifteen {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+.name_sixteen {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 16%;
+}
+
+.name_seventeen {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 16%;
+}
+
+.person_eighteen {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    margin-left: 35%;
+    margin-top: -330px;
+}
+
+.name_nineteen {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #03115F;
+    margin-left: 40%;
+}
+
+.name_twenty {
+    width: 282px;
+    height: 24px;
+    font-family: 'Gotham' sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535670;
+    margin-left: 38%;
+}
+
+
+.person_end {
+    margin-top: 100px;
+}
+
+.name_summary {
+    width: 261px;
+    height: 33px;
+    color: #DDDDE2;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 180px;
+}
+
+.name_join {
+    width: 778px;
+    height: 68px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 68px;
+    color: #EEEFF1;
+    margin-left: 180px;
+}
+
+.name_btn {
+    margin-left: 180px;
+    width: 200px;
+    height: 45px;
+    margin-top: 40px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #1E74EC;
+}
