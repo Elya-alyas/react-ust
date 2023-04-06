@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './Home.module.css'
 import AboutUs from './Components/AboutUs/AboutUs';
 import Main from './Components/Main/Main';

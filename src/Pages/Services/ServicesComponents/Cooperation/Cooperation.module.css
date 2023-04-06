@@ -1,0 +1,28 @@
+.card {
+	width: 31%;
+	flex-wrap: wrap;
+	background: #f8f9f9;
+}
+.card p {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 16px;
+	line-height: 22px;
+}
+.card img {
+	width: 100%;
+}
+.card h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	background: linear-gradient(130.67deg, #1e74ec 6.5%, #002984 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.par {
+	margin: 7% 7% 9%;
+}

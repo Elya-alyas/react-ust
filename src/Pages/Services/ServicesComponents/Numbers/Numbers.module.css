@@ -1,0 +1,71 @@
+.num {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 200px;
+	line-height: 240px;
+	text-align: center;
+	color: #dddde2;
+	margin-left: 2%;
+	width: 140px;
+}
+.analyze {
+	display: flex;
+	justify-content: flex-start;
+	gap: 9%;
+	margin-top: 7%;
+}
+.text {
+	width: 40%;
+}
+.analyze h1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 64px;
+	background: linear-gradient(130.67deg, #1e74ec 6.5%, #002984 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.analyze p {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: rgba(0, 0, 0, 0.6);
+	padding: 3% 0 5% 0;
+}
+.analyze h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: #75788d;
+}
+.text img {
+	padding: 5% 0;
+	margin-right: 6%;
+}
+.text h3 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 16px;
+	line-height: 20px;
+	color: #75788d;
+	margin-top: 0;
+}
+.text a {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: #a960ab;
+}
+.box {
+	width: 33%;
+}
+.box_img {
+	display: flex;
+	gap: 7%;
+	padding-top: 25%;
+}

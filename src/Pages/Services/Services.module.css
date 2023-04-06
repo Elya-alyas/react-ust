@@ -1,0 +1,369 @@
+@import url("https://fonts.cdnfonts.com/css/gotham?styles=17581,17583,17585,17587,17579,17588,17589,17591,17592,17595");
+/********************* top **********************/
+.projects {
+	width: 100%;
+	height: 100vh;
+	background: url("../../assets/services/foto_Azat/main_fon.png") center / cover
+		no-repeat;
+	display: flex;
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.our {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin-top: 6%;
+}
+.our h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: #cdcfdf;
+}
+.our h1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 68px;
+	color: #eeeff1;
+	margin: 5% 0;
+}
+.our p {
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #dddde2;
+}
+.our button {
+	padding: 14px 20px;
+	width: 35%;
+	height: 48px;
+	background: #1e74ec;
+	font-family: "Gotham", sans-serif;
+	font-weight: 350;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #eeeff1;
+	margin-top: 10%;
+}
+/********************* Cотрудничество (section 1, Cooperation) **********************/
+.cooperation {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10%;
+}
+.cooper_first,
+.services_first {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	margin: 8% auto 1% 0;
+}
+.cooperation h2,
+.services_first h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: #35417f;
+	margin-bottom: 3%;
+}
+.cooperation h1,
+.services_first h1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 68px;
+	color: #03115f;
+	margin-bottom: 6%;
+}
+.cooper_second {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+	flex-wrap: wrap;
+	flex: 1 1 31%;
+	margin-top: 5%;
+}
+.arrLeft {
+	position: absolute;
+	top: 50%;
+	left: -3%;
+}
+.arrRight {
+	position: absolute;
+	top: 50%;
+	right: -3%;
+}
+.points {
+	position: absolute;
+	bottom: -8%;
+	left: 47%;
+}
+/********************* Наши услуги (section 2, Service) **********************/
+.backgr {
+	background: #e6e8ef;
+	margin-top: 3%;
+	padding-bottom: 5%;
+}
+.services {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 2%;
+}
+.wrapImg {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+/********************* Numbers (section 3) **********************/
+.numbers {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 5%;
+}
+.num_1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 200px;
+	line-height: 240px;
+	text-align: center;
+	color: #dddde2;
+}
+/*************** Дополнительные услуги (section 4, AdditionalService) ******************/
+.additionalServices_bg {
+	background-color: rgba(230, 232, 239, 1);
+	padding-top: 5%;
+}
+.additionalServices h1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 68px;
+	color: #03115f;
+	width: 30%;
+	padding-bottom: 3%;
+	margin: 0 auto 0 0;
+}
+.additionalServices {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 7%;
+}
+.firstLine,
+.secondLine {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	gap: 2%;
+	justify-content: space-between;
+	margin-bottom: 1.5%;
+}
+.firstLine {
+	margin-top: 8%;
+}
+/*************** ваш проект (section 5) ******************/
+.container1 {
+	max-width: 80%;
+	margin-top: 6%;
+	margin-left: 10%;
+}
+.discuss1 {
+	background: url("../../assets/services/foto_Azat/discuss.png") center / cover
+		no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.discuss1_text {
+	display: flex;
+	flex-direction: column;
+}
+.discuss1_text h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: #e6e8ef;
+}
+.discuss1_text h1 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 68px;
+	color: #eeeff1;
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+.discuss1_text p {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 20px;
+	line-height: 28px;
+	color: #eeeff1;
+}
+/**************************************************/
+.discuss2 {
+	width: 65%;
+	height: 95vh;
+	background: #eeeff1;
+	margin: 0 auto;
+	margin-top: -25%;
+	padding: 4% 8%;
+	margin-bottom: 5%;
+}
+.discuss2_1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 20%;
+	position: relative;
+}
+.discuss2_1::after,
+.discuss2_2::after,
+.discuss2_3::after {
+	content: "";
+	width: 100%;
+	height: 4px;
+	background: rgba(221, 221, 226, 1);
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+}
+.discuss2_11 h2,
+.discuss2_21 h2,
+.discuss2_31 h2 {
+	font-family: "Gotham", sans-serif;
+	font-weight: 350;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 3%;
+}
+.discuss2_11 p,
+.discuss2_21 p {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 16px;
+	line-height: 22px;
+	color: #75788d;
+}
+.discuss2_12,
+.discuss2_21 {
+	display: flex;
+	flex-direction: column;
+}
+.discuss2_12 input,
+.discuss2_22 input {
+	padding: 14px 16px;
+	width: 453px;
+	height: 48px;
+	background: #ffffff;
+	border-radius: 4px;
+	margin-bottom: 3%;
+}
+.discuss2_12 input::placeholder,
+.discuss2_22 input::placeholder {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 16px;
+	line-height: 20px;
+	color: #75788d;
+}
+.discuss2_22 button {
+	padding: 14px 20px;
+	width: 206px;
+	height: 48px;
+	border: 2px solid #1e74ec;
+	margin-bottom: 3%;
+	font-family: "Gotham", sans-serif;
+	font-weight: 350;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #1e74ec;
+}
+.discuss2_2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 30%;
+	position: relative;
+	margin-top: 5.5%;
+	gap: 25%;
+	padding-bottom: 0.5%;
+}
+.discuss2_3 {
+	display: flex;
+	justify-content: space-between;
+	gap: 30%;
+	position: relative;
+	margin-top: 4%;
+	gap: 25%;
+	padding-bottom: 1%;
+}
+.discuss2_32 textarea::placeholder {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 16px;
+	line-height: 20px;
+	color: #75788d;
+	padding-left: 4%;
+	padding-top: 2%;
+}
+.discuss2_33 p {
+	font-family: "Gotham", sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+}
+.discuss2_33 a {
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 11px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #a960ab;
+}
+.discuss2_33 {
+	padding: 4%;
+	background: #e6e8ef;
+	border-radius: 4px;
+	margin-top: 3%;
+}
+.discuss2_4 {
+	margin-top: 4%;
+	padding-bottom: 1%;
+	margin-left: 4%;
+}
+.discuss2_42 {
+	margin-left: 50%;
+}
+.discuss2_42 h3 {
+	font-family: "Gotham" sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+}
+.discuss2_42 button {
+	font-family: "Gotham", sans-serif;
+	font-weight: 350;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #eeeff1;
+	width: 206px;
+	height: 48px;
+	background: #1e74ec;
+	margin-top: 3%;
+}

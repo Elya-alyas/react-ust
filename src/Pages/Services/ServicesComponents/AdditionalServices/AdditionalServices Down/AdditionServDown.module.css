@@ -1,0 +1,17 @@
+.secondLine_card {
+	display: flex;
+	width: 32%;
+	background-color: #fff;
+	align-items: center;
+	font-family: "Gotham", sans-serif;
+	font-weight: 325;
+	font-size: 26px;
+	line-height: 32px;
+	color: #35417f;
+	text-align: center;
+	margin: 0 auto;
+}
+.additionalPar {
+	margin: 0 auto;
+	width: 45%;
+}
