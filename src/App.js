@@ -8,6 +8,7 @@ import Team from './Pages/Team/Team';
 import Career from './Pages/Career/Career';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Services from './Pages/Services/Services';
+import Game from './Pages/Game/Game';
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           <Route path='/career' element={<Career />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/services' element={<Services />} />
+          <Route path='/game' element={<Game />} />
+
         </Routes>
       </main>
 
