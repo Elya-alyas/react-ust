@@ -1,0 +1,116 @@
+.portfolio_section {
+    margin-top: 180px;
+}
+
+.portfolio_bg_block {
+    background: #E6E8EF center/cover no-repeat;
+    height: 70vh;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -26%;
+
+
+}
+
+.portfolio_title {
+    color: #35417F;
+    font-size: 18px;
+    text-align: center;
+}
+
+.portfolio_main_title {
+    color: #03115F;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.portfolio_title_description {
+    color: #535670;
+    line-height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.portfolio_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    margin: 20px 0;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+.card h5 {
+    color: #1E74EC;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #535670;
+    font-size: 16px;
+}
+
+#card1 {
+    flex: 0 1 23%;
+}
+
+#card2 {
+    flex: 0 1 23%;
+}
+
+#card3 {
+    flex: 0 1 23%;
+}
+
+#card4 {
+    flex: 0 1 23%;
+}
+
+#card5 {
+    flex: 0 1 48%;
+}
+
+#card6 {
+    flex: 0 1 48%;
+}
+
+.portfolio_btns {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.portfolio_btn {
+    width: 20%;
+    color: #1E74EC;
+    font-size: 16px;
+    border: 2px solid #1E74EC;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.order_btn {
+    width: 20%;
+    background: #1E74EC;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #1E74EC;
+    padding: 10px 20px;
+    margin-left: 20px;
+}

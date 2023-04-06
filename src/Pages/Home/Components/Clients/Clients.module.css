@@ -1,0 +1,22 @@
+.clients_section {
+    max-width: 80%;
+    margin: 180px auto;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #03115F;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    flex: 0 1 15%;
+}
