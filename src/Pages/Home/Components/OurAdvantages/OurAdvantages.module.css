@@ -1,0 +1,47 @@
+.advantages_section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    color: #35417F;
+    font-size: 18px;
+}
+
+.main_title {
+    color: #03115F;
+    font-size: 56px;
+    font-weight: 700;
+    margin: 10px 0;
+    width: 60%;
+}
+
+.title_description {
+    color: #535670;
+    font-size: 20px;
+    width: 60%;
+    margin: 20px 0 80px 0;
+}
+
+.advantages_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 23%;
+}
+
+
+.card h5 {
+    color: #1E74EC;
+    font-size: 22px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #535670;
+    font-size: 16px;
+}
