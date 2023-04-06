@@ -52,6 +52,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	color: #75788d;
+	margin-top: 0;
 }
 .text a {
 	font-family: "Gotham", sans-serif;
@@ -66,5 +67,5 @@
 .box_img {
 	display: flex;
 	gap: 7%;
-	padding-top: 5%;
+	padding-top: 25%;
 }
