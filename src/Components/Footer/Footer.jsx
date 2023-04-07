@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Footer.module.css'
 import line from '../../assets/Line.png'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -27,16 +28,16 @@ const Footer = () => {
                     </div>
                     <div className={style.title_third}>
                         <ul className={style.inform}>
-                            <li>ГЛАВНАЯ</li>
-                            <li>КОМАНДА</li>
-                            <li>УСЛУГИ</li>
+                            <li><NavLink className={style.inform_item} to={'/'}>ГЛАВНАЯ</NavLink></li>
+                            <li><NavLink className={style.inform_item} to={'/team'}>КОМАНДА</NavLink></li>
+                            <li><NavLink className={style.inform_item} to={'/services'}>УСЛУГИ</NavLink></li>
                         </ul>
                     </div>
                     <div className={style.title_fourth}>
                         <ul className={style.inform}>
-                            <li>КАРЬЕРА</li>
-                            <li>ПОРТФОЛИО</li>
-                            <li>КОНТАКТЫ</li>
+                            <li><NavLink className={style.inform_item} to={'/career'}>КАРЬЕРА</NavLink></li>
+                            <li><NavLink className={style.inform_item} to={'/portfolio'}>ПОРТФОЛИО</NavLink></li>
+                            <li><NavLink className={style.inform_item} to={'/game'}>GAME</NavLink></li>
                         </ul>
                     </div>
                     <div className={style.title_fifth}>

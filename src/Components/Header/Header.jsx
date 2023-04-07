@@ -12,7 +12,7 @@ const Header = () => {
             <nav>
                 <div className={style.container}>
                     <div className={style.block_first}>
-                        <img className={style.icon} src={icon} alt={icon} />
+                        <NavLink to={'/'}><img className={style.icon} src={icon} alt={icon} /></NavLink>
                         <div className={style.block_title}>
                             <h1 className={style.title}>Union Smart Technology</h1>
                             <h2 className={style.title_small}>Simple solutions for complex problems</h2>
