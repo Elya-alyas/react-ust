@@ -123,14 +123,25 @@ p {
   padding-right: 50px;
   margin-bottom: 80px;
 }
+.clients_icons_block {
+  padding-left: 90px;
+  padding-bottom: 30px;
+  width: 100%;
+}
 .clients_icons_block img {
   padding-left: 90px;
   padding-bottom: 30px;
   width: 157px;
+  height: auto;
+}
+.clients_icons_block2 {
+  padding-left: 90px;
+  width: 100%;
 }
 .clients_icons_block2 img {
   padding-left: 90px;
   width: 157px;
+  height: auto;
 }
 .coffee_img {
   width: 100%;
