@@ -13,6 +13,7 @@
 	justify-content: flex-start;
 	gap: 9%;
 	margin-top: 7%;
+	width: 100%;
 }
 .text {
 	width: 40%;
@@ -45,6 +46,7 @@
 .text img {
 	padding: 5% 0;
 	margin-right: 6%;
+	width: auto;
 }
 .text h3 {
 	font-family: "Gotham", sans-serif;
@@ -68,4 +70,5 @@
 	display: flex;
 	gap: 7%;
 	padding-top: 25%;
+	height: auto;
 }

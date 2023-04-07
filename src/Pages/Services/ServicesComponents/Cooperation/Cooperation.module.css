@@ -11,6 +11,7 @@
 }
 .card img {
 	width: 100%;
+	height: auto;
 }
 .card h2 {
 	font-family: "Gotham", sans-serif;

@@ -1,6 +1,10 @@
 .services_box {
 	text-align: center;
 }
+.services_box img{
+	width: 100%;
+	height: auto;
+}
 .services_box h3 {
 	font-family: "Gotham", sans-serif;
 	font-weight: 700;
