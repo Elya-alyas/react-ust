@@ -19,4 +19,5 @@
 
 .logos img {
     flex: 0 1 15%;
+    height: auto;
 }
