@@ -24,29 +24,31 @@
     line-height: 20px;
 }
 
-.cards {
+.servises_cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.card {
+.servises_card {
     width: 30%;
     margin: 20px 0;
 }
 
-.card img {
+
+.servises_card img {
     margin: 20px 10px;
     width: 10%;
+    height: auto;
 }
 
-.card h3 {
+.servises_card h3 {
     color: #1E74EC;
     font-size: 20px;
     margin: 10px 0;
 }
 
-.card p {
+.servises_card p {
     color: #535670;
     font-size: 16px;
 }
@@ -59,9 +61,11 @@
 }
 
 
-.all_servise_btn img {
+.arrow_right {
     color: #A960AB;
     font-size: 16px;
     font-weight: 600;
-    margin: 3px 0 0 20px;
+    margin: 4px 0 0 20px;
+    height: auto;
+    width: 25%;
 }

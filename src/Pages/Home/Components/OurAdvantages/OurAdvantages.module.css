@@ -33,6 +33,11 @@
     width: 23%;
 }
 
+.card img {
+    height: auto;
+    width: 20%;
+}
+
 
 .card h5 {
     color: #1E74EC;
