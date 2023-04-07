@@ -335,9 +335,16 @@ img {
     margin-left: 38%;
 }
 
+.person_team {
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+    margin-top: 50px;
+
+}
 
 .person_end {
-    margin-top: 100px;
+    height: auto;
 }
 
 .name_summary {
