@@ -201,7 +201,6 @@ const Game = () => {
                 </div>
             </section>
             <section className={style.lower_block}>
-                {/* <img src={lowerimg} alt={lowerimg} /> */}
                 <div className={style.lower_container}>
                     <div className={style.blockes_lower}>
                         <h2>Будем рады сотрудничеству!</h2>

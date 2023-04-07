@@ -64,7 +64,7 @@ nav {
     display: flex;
 }
 
-.icon {
+.block_first img {
     margin-top: 10px;
     height: 80px;
     width: 80px;
@@ -107,14 +107,14 @@ nav {
     color: #989AA9;
 }
 
-.flag_img {
+.block_second .flag_img {
     height: 20px;
     width: 28px;
     margin-top: 35px;
     margin-left: 20px;
 }
 
-.lupa_img {
+.block_second .lupa_img {
     height: 24.071067810058594px;
     width: 23.485280990600586px;
     margin-top: 35px;
