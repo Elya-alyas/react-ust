@@ -89,6 +89,13 @@
 
 .block_pause {
     margin-top: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.block_pause img {
+    width: 20px;
+    height: 20px;
 }
 
 .information {
