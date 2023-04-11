@@ -15,7 +15,6 @@ import mondoro_icon from "../../assets/assets-portfolio/mondoro.png";
 import games_icon from "../../assets/assets-portfolio/games.png";
 import actual_icon from "../../assets/assets-portfolio/Actual.png";
 import coffees_icon from "../../assets/assets-portfolio/coffee.png";
-import btn_img from "../../assets/assets-portfolio/button.png";
 
 const Portfolio = () => {
   return (
@@ -106,8 +105,8 @@ const Portfolio = () => {
       </div>
       {/* connection with us */}
       <div>
-        <div>
-          <img className={style.coffee_img} src={coffees_icon} alt="icon" />
+        <div className={style.coffee_img}>
+          {/* <img  src={coffees_icon} alt="icon" /> */}
         </div>
         <div className={style.title_part}>
           <h4 className={style.idea}>Есть идея?</h4>
