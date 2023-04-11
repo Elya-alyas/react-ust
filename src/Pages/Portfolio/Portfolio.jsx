@@ -104,20 +104,21 @@ const Portfolio = () => {
         </div>
       </div>
       {/* connection with us */}
-      <div>
+      <div className={style.cof}>
         <div className={style.coffee_img}>
           {/* <img  src={coffees_icon} alt="icon" /> */}
-        </div>
-        <div className={style.title_part}>
-          <h4 className={style.idea}>Есть идея?</h4>
-          <h1 className={style.contact_with_us}>Свяжитесь с нами</h1>
-          <p className={style.p}>
-            У вас есть уже существующий проект, который вы хотите
-            усовершенствовать? Вы хотите воплотить в жизнь смелую идею, но вам
-            нужна помощь? Или вы вообще не знаете, с чего начать реализацию
-            проекта?
-          </p>
-          <button className={style.btn_btn3}>Заказать проект</button>
+
+          <div className={style.title_part}>
+            <h4 className={style.idea}>Есть идея?</h4>
+            <h1 className={style.contact_with_us}>Свяжитесь с нами</h1>
+            <p className={style.p}>
+              У вас есть уже существующий проект, который вы хотите
+              усовершенствовать? Вы хотите воплотить в жизнь смелую идею, но вам
+              нужна помощь? Или вы вообще не знаете, с чего начать реализацию
+              проекта?
+            </p>
+            <button className={style.btn_btn3}>Заказать проект</button>
+          </div>
         </div>
       </div>
     </div>
