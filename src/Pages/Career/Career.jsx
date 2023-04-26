@@ -108,9 +108,9 @@ const Career = () => {
                         <p className={style.p} >Расскажите, как к вам обращаться и как можно связаться с вами</p>
                     </div>
                     <div className={style.system_two}>
-                        <input className={style.inp_one} placeholder='ИМЯ' type="" name="" id="inp" />
-                        <input className={style.inp_two} placeholder='Электронная почта' type="" name="" id="inp" />
-                        <input className={style.inp_three} placeholder='Телефон' type="" name="" id="" />
+                        <input className={style.inp_one} placeholder='ИМЯ' type="text" name="text" id="inp" />
+                        <input className={style.inp_two} placeholder='Электронная почта' type="text" name="text" id="inp" />
+                        <input className={style.inp_three} placeholder='Телефон' type="text" name="text" id="" />
                     </div>
                     <div className={style.system_three}>
                         <h5 className={style.one_h5} >Резюме/Портфолио</h5>

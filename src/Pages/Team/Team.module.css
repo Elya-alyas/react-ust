@@ -61,10 +61,8 @@ img {
     height: 192px;
     color: #03115F;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 64px;
     margin-left: 150px;
     margin-top: 120px;
 }
@@ -99,7 +97,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -111,7 +108,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -123,7 +119,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -135,7 +130,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -155,7 +149,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -167,7 +160,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -187,7 +179,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -199,7 +190,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -219,7 +209,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -231,7 +220,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -251,7 +239,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -263,7 +250,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -283,7 +269,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -295,7 +280,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -315,7 +299,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -327,7 +310,6 @@ img {
     width: 282px;
     height: 24px;
     font-family: 'Gotham' sans-serif;
-    font-style: normal;
     font-weight: 100;
     font-size: 16px;
     line-height: 24px;
@@ -337,21 +319,24 @@ img {
 
 
 .person_end {
-    margin-top: 100px;
+    /* position: absolute; */
+    width: 1920px;
+    height: 820px;
+    margin-top: 10%;
 }
 
 .name_summary {
-    width: 261px;
+    width: 400px;
     height: 33px;
     color: #DDDDE2;
-    font-family: 'Gotham';
+    font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 29px;
     line-height: 36px;
     text-align: center;
     margin-top: -400px;
-    margin-left: 180px;
+    margin-left: 120px;
 }
 
 .name_join {
